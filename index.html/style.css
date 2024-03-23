@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+#page1{
+    position: relative; 
+    height: 100vh;
+    width: 100vw;
+    background-color: #040312;
+}
+#page1 .nav{
+    display: flex;
+    height: 12%;
+    width: 100%;
+    background-color:#0F0F20;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#page1 .nav .menu{
+    display: flex;
+    gap: 30px;
+    font-size: 21px;
+}
+.menu a{
+    color: #fff;
+    text-decoration: none;
+}
+.cf h1{
+    color: #B27DFB;
+    font-weight: 800;
+}
+.nav button{
+    padding: 12px 25px;
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    border-color: #B27DFB;
+    border-style: solid;
+    border-width: 3px;
+}
+#page1 .hero{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.left{
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+.left .txt{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.txt{
+    display: flex;
+    gap: 18px;
+    flex-direction: column;
+}
+.txt h1{
+    font-size: 50px;
+    color: #fff;
+}
+.txt h1 span{
+    color: #B27DFB;
+}
+.txt p{
+    font-size: 18px;
+    color: #7A7A87;
+}
+.txt button{
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: transparent;
+    color: #B27DFB;
+    border-color: #B27DFB;
+    border: solid;
+    font-weight: 600;
+}
+.right{
+   width: 50%;
+    height: 100%;
+}
+.right img{ 
+    height: 350px;
+    width: 350px;
+    margin-top: 120px;
+}
